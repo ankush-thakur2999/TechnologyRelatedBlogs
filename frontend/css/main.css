@@ -13,3 +13,11 @@ h1{
 .container-fluid{
     color:skyblue;
 }
+#loginform,#signupform{
+    margin-left: 40%;
+    margin-top: 7%;
+    width: fit-content;
+    padding: 80px;
+    border: solid black 1px;
+    
+}
