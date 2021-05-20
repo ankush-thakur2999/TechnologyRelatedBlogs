@@ -1,0 +1,15 @@
+h1{
+    font-family: 'Oi', cursive;
+    text-align:  center;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 20px;
+    background-image: url("../img/index.jpeg");
+}
+#heading{
+    color: red;
+}
+.container-fluid{
+    color:skyblue;
+}
