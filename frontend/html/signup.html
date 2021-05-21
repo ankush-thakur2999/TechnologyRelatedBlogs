@@ -11,7 +11,7 @@
 
     </head>
     <body>
-        <h1><a  id = "heading" href="index.html" >TrB</a></h1>
+        <h1><a  id = "heading" href="../index.html" >TrB</a></h1>
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
              
@@ -31,13 +31,13 @@
             </div>
           </nav>
           <div id="signupform">
-            <form>
+            <form action="http://localhost:8080/api/auth/signup" method="POST">
               <label>Username</label><br>
-              <input type="text" required><br>
+              <input type="text"   name="Username" required><br>
               <label>Email </label><br>
-              <input type ="text" required><br>
+              <input type ="text" name="Email" required><br>
               <label>Password</label><br>
-              <input type="text" required><br><br>
+              <input type="text" name="Password" required><br><br>
               <input type="submit"style="margin-left: 30%; background-color:chartreuse;">
             </form>
           </div>

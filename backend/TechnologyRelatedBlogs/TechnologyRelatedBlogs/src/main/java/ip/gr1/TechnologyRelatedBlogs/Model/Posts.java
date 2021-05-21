@@ -16,6 +16,55 @@ public class Posts {
     private  String Content;
     @Column
     private Instant postedOn;
+
+    public Long getId() {
+        return Id;
+    }
+
+    public void setId(Long id) {
+        Id = id;
+    }
+
+    public String getTitle() {
+        return Title;
+    }
+
+    public void setTitle(String title) {
+        Title = title;
+    }
+
+    public String getContent() {
+        return Content;
+    }
+
+    public void setContent(String content) {
+        Content = content;
+    }
+
+    public Instant getPostedOn() {
+        return postedOn;
+    }
+
+    public void setPostedOn(Instant postedOn) {
+        this.postedOn = postedOn;
+    }
+
+    public Instant getUpdatedOn() {
+        return updatedOn;
+    }
+
+    public void setUpdatedOn(Instant updatedOn) {
+        this.updatedOn = updatedOn;
+    }
+
+    public String getUsername() {
+        return Username;
+    }
+
+    public void setUsername(String username) {
+        Username = username;
+    }
+
     @Column
     private  Instant updatedOn;
     @Column
