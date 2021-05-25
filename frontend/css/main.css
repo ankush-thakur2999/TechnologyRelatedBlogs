@@ -21,3 +21,10 @@ h1{
     border: solid black 1px;
     
 }
+#Addpost{
+    margin-left: 30%;
+    margin-top: 4%;
+    width: fit-content;
+    padding: 80px;
+    border: solid black 1px;
+}
