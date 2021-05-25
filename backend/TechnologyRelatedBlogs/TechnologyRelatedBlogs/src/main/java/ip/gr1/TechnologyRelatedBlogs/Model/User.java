@@ -7,43 +7,43 @@ import javax.persistence.*;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private  Long Id;
+    private  Long id;
     @Column
-    private  String Username;
+    private  String userName;
     @Column
-    private  String Password;
+    private  String password;
     @Column
-    private  String Email;
+    private  String email;
 
     public Long getId() {
-        return Id;
+        return id;
     }
 
     public void setId(Long id) {
-        Id = id;
+        this.id = id;
     }
 
-    public String getUsername() {
-        return Username;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setUsername(String username) {
-        Username = username;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     public String getPassword() {
-        return Password;
+        return password;
     }
 
     public void setPassword(String password) {
-        Password = password;
+        this.password = password;
     }
 
     public String getEmail() {
-        return Email;
+        return email;
     }
 
     public void setEmail(String email) {
-        Email = email;
+        this.email = email;
     }
 }
