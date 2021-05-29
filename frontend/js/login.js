@@ -23,6 +23,11 @@ function login(event){
         .then(res=> {
             if(res.status==200){
             window.alert("logged in");
+            document.getElementById("addapostbtn").style.display='block';
+            document.getElementById("signupbtn").style.display='none';
+            document.getElementById("loginbtn").style.display='none';
+            document.getElementById("logoutbtn").style.display='block';
+            document.getElementById("loginform").style.display="none";
             return res.json();
             }
             else {

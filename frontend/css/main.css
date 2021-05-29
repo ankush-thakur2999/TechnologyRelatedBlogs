@@ -28,3 +28,9 @@ h1{
     padding: 80px;
     border: solid black 1px;
 }
+#addapostbtn{
+    display: none;
+}
+#logoutbtn{
+    display: none;
+}
